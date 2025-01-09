@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data-Oriented Design (DOD)</title>
+  </head>
+  <body>
+    <p>
+      <h1>Data-Oriented Design (DOD)</h1>
+      <h2>Kirjeldus</h2>
+        <p>
+          Data-Oriented Design (DOD) on tarkvaraarendus lähenemine, mis keskendub
+          andmete struktuuri optimeerimisele ja nende tõhusale kasutamisele
+          süsteemides. Erinevalt objektorienteeritud disainist, mis keskendub andmete peitmisele ja organiseerimisele, keskendub DOD sellele, kuidas andmeid tõhusalt töödelda ja riistvaraga paremini sobitada.</p>
+        <p>
+          DOD eesmärk on teha programmid kiiremaks, vähendada mälu kasutust ja võimaldada mitme protsessi töötamist korraga, korraldades andmeid nii, et protsessor saaks neile kiiremini ligi ja ei peaks kaua ootama.
+        </p>
+        <tr>
+           <td>
+            <img src="/pictures/DOP.png" width="750" height="450" />
+          </td>
+        </tr>
+      </table>
+      <h2>Head ja vead</h2>
+      <p>
+        <table>
+          <tr>
+            <td>Head</td>
+            <td>Vead</td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>Parandab jõudlust suurte andmemahtude töötlemisel.</li>
+                <li>Optimeerib mälu kasutust.</li>
+                <li>Tõhus andmeintensiivsetes süsteemides nagu mänguarendus ja simulatsioonid.</li>
+                <li>Vähendab protsessori ooteaega tänu paremale andmestruktuuri optimeerimisele.</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Nõuab põhjalikku arusaamist riistvara arhitektuurist ja protsessori töövoogudest.</li>
+                <li>Keerulisem koodi hooldamine, kuna optimeeritud andmestruktuurid võivad olla raskesti loetavad.</li>
+                <li>Vähem paindlik abstraktsioonide ja laiendatavuse osas võrreldes objektorienteeritud disainiga.</li>
+                <li>Algne rakendamine võib olla ajamahukas ja nõuda spetsialiseeritud oskusi.</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </p>
+      <h2>Toetav casevahend</h2>
+      <p>
+        Flecs on kerge ja paindlik Entity Component System raamistik, mis on loodud DOD põhimõtteid järgides. See on eriti kasulik arendajatele, kes soovivad optimeerida andmestruktuure ja töövooge, keskendudes jõudlusele ja lihtsusele. Flecs sobib hästi mänguarendusse, simulatsioonidesse ja muudele andmeintensiivsetele rakendustele. See on lowercase vahend.</p>
+      <p></p>
+      <h2>Kasutatud materjal</h2>
+      <ul>
+        <li>https://www.orientsoftware.com/blog/dod-programming/</li>
+        <li>https://arpanext.medium.com/a-comprehensive-guide-to-data-oriented-design-for-improved-software-efficiency-6434d520d0e4</li>
+        <li>https://blog.klipse.tech/dop/2022/06/22/principles-of-dop.html</li>
+      </ul>
+  </body>
+</html>
